@@ -1,3 +1,14 @@
-theme: jekyll-theme-minimal
+remote_theme: giellalt/jekyll-theme-giellalt@main
 title: Dictionary for Greenlandic ⇒ Danish
 description: An electronic dictionary from Greenlandic to Danish
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jemoji
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: minimal
